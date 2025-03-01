@@ -54,14 +54,4 @@ Java 15
 More
 15161718192021222324251413121110985673412
 
-            if (query.equals("Insert") && sc.hasNextInt()) {
-                int index = sc.nextInt();
-                int value = sc.nextInt();
-                list.add(index, value);
-            } else if (query.equals("Delete") && sc.hasNextInt()) {
-                int index = sc.nextInt();
-                list.remove(index);
-            }
-        }
-
-Line: 22 Col: 13
+           
