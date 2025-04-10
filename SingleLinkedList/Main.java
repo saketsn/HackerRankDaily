@@ -12,5 +12,7 @@ public class Main {
 
         System.out.println("Singly Linked List:");
         sll.traverseSinglyLinkedList();
+        sll.searchNode(100);
+        sll.searchNode(10);
     }
 }
