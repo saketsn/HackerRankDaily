@@ -67,4 +67,49 @@ public class SinglyLinkedList {
         System.out.println("Node not found.");
         return false;
     }
+
+    public void deleteByPosition(int position){
+        if(head == null){
+            System.out.println("list is empty");
+        }
+
+         if (position == 0){
+            head = head.next;
+            return ;
+         }
+         Node current = head;
+         for(int i = 0; current != null && i <  position -1; i++){
+             current = current.next;
+         }
+         if(current == null || current.next == null){
+             System.out.println("Invalid positon.");
+             return;
+         }
+
+         current.next = current.next.next;
+
+    }
+
+    public void deleteByValue(int value){
+        if(head == null){
+            System.out.println("List is empty.");
+        }
+
+        if(head.value == value ){
+            head = head.next;
+            return;
+        }
+
+        Node current = head;
+        while(current.next != null && current.next.value != value){
+            current = current.next;
+        }
+
+        if(current.next == null){
+            System.out.println("Value not found");
+            return;
+        }
+        current.next = current.next.next;
+    }
+
 }
