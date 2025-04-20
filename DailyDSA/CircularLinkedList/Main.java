@@ -9,8 +9,9 @@ public class Main{
         csll.insertCSLL(33,1);
         csll.insertCSLL(45,8);
         csll.insertCSLL(7,9);
-        System.out.println(csll.head.value);
-        System.out.println(csll.head.next.value);
+
+
+        csll.traverseCSLL();
 
     }
 }
