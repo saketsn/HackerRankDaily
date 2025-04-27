@@ -30,6 +30,8 @@ public class InsertionShort {
                   j--;
             }
             arr[j] = temp;
+
+         
         }
 
 
