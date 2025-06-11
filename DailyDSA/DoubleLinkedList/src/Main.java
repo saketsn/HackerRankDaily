@@ -7,6 +7,7 @@ public class Main {
         dll.insertDLL(43,1);
         dll.insertDLL(67,9);
         System.out.println(dll.head.value);
+        dll.traverseDLL();
 
     }
 }
