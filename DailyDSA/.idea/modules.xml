@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CircularDubleLinkedList/CircularDubleLinkedList.iml" filepath="$PROJECT_DIR$/CircularDubleLinkedList/CircularDubleLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/DailyDSA.iml" filepath="$PROJECT_DIR$/DailyDSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleLinkedList/DoubleLinkedList.iml" filepath="$PROJECT_DIR$/DoubleLinkedList/DoubleLinkedList.iml" />
     </modules>

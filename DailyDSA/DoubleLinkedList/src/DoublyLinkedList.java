@@ -65,5 +65,39 @@ public class DoublyLinkedList {
         System.out.println("\n");
     }
 
+    public void RevTraverseDLL(){
+        if(head != null){
+            DoublyNode tempNode = tail;
+            for (int i = 0; i < size; i++){
+                System.out.print(tempNode.value);
+                if(i != size-1){
+                    System.out.print(" <- ");
+                }
+                tempNode = tempNode.prev;
+            }
+        }else{
+            System.out.println("LinkedList does not exists");
+        }
+        System.out.println("\n");
+    }
+
+    public boolean  search(int value){
+        if(head != null) {
+            DoublyNode tempNode = head;
+            for (int i = 0; i < size; i++) {
+                if (tempNode.value == value) {
+                    System.out.println("Value found at index = " + i);
+                    return true;
+                }
+                tempNode = tempNode.next;
+            }
+        }
+            System.out.println("Given value in LinkedList does not exists");
+            return false;
+
+
+
+    }
+
 
 }

@@ -8,6 +8,9 @@ public class Main {
         dll.insertDLL(67,9);
         System.out.println(dll.head.value);
         dll.traverseDLL();
+        dll.RevTraverseDLL();
+        dll.search(43);
+        dll.search(100);
 
     }
 }
