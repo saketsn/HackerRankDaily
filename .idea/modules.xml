@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/HackerRank.iml" filepath="$PROJECT_DIR$/.idea/HackerRank.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeQ/PracticeQ.iml" filepath="$PROJECT_DIR$/PracticeQ/PracticeQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProblemTwelve/ProblemTwelve.iml" filepath="$PROJECT_DIR$/ProblemTwelve/ProblemTwelve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/RegxClass/RegxClass.iml" filepath="$PROJECT_DIR$/RegxClass/RegxClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
     </modules>
